@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Manrope', sans-serif;
+    background-color: hsl(220, 22%, 16%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 375px;
+    background-color: hsl(218, 20%, 24%); 
+    padding: 1.5rem;
+    border-radius: .5rem;
+    text-align: center;
+}
+
+.title{
+    color: hsl(150, 100%, 66%);
+    text-transform:uppercase;
+    font-size: 11px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.advice{
+    color: hsl(193, 38%, 86%);
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    display: flex;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin-top: 1rem;
+    background-color: hsl(150, 100%, 66%);
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    transition: box-shadow 0.4s;
+}
+
+.img{
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+button:hover{
+    background-color: hsl(150, 100%, 66%);
+    box-shadow: 0 0 20px hsl(150, 100%, 66%); 
+}
